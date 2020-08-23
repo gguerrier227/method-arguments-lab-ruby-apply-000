@@ -5,8 +5,9 @@ end
 introduction ('Josh')
 
 def introduction_with_language (phrase)
-  puts "Hi, my name is #{phrase[0]} and I am learning to program in #{phrase[1]}.\n"
+  puts "Hi, my name is #{name[0]} and I am learning to program in #{language[0]}.\n"
 end
 
-intro = ['Dan','Ember.js']
-introduction_with_language(intro)
+name = ['Dan']
+language = ['Ember.js']
+introduction_with_language(intro,language)

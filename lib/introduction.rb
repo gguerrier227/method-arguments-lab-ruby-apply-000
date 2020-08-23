@@ -4,7 +4,7 @@ end
 
 introduction ('Josh')
 
-def introduction_with_language (name)
+def introduction_with_language (phrase)
   puts "Hi, my name is #{name[0]} and I am learning to program in #{language[0]}.\n"
 end
 

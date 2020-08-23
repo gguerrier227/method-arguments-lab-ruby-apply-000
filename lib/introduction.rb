@@ -10,4 +10,4 @@ end
 
 name = ['Dan']
 language = ['Ember.js']
-introduction_with_language(intro,language)
+introduction_with_language(name,language)
